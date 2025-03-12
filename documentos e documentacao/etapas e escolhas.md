@@ -20,9 +20,10 @@ Das opções disponíveis, as escolhidas são:
   - Baseada no comportamento coletivo de enxames.  
   - Simples de implementar e eficaz.  
 
-- **Differential Evolution (DE)**  
-  - Algoritmo simples de otimização baseado em evolução diferencial.  
-  - Tem boa eficiência e implementação intuitiva.  
+- **Artificial Bee Colony (ABC)**  
+  - Inspirado no comportamento das abelhas na busca por alimento.  
+  - Fácil de implementar e com bom desempenho em otimização global.  
+  - Utiliza exploradores, observadoras e empregadas para balancear exploração e exploração da busca.   
 
 ### Passo 3 - Implementação  
 1. Implementar as funções matemáticas escolhidas.  
