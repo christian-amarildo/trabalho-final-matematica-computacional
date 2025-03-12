@@ -3,7 +3,7 @@
 ## Parte 1: Otimização de Funções
 
 ### Passo 1 - Escolher as Funções  
-Das funções disponíveis na seção **"Many Local Minima"**, as mais fáceis de implementar e visualizar são:
+Das funções disponíveis na seção **"Many Local Minima"**, as escolhidas foram:
 
 - **Rastrigin Function**  
   - Função comum de benchmark com múltiplos mínimos locais.  
@@ -14,7 +14,7 @@ Das funções disponíveis na seção **"Many Local Minima"**, as mais fáceis d
   - Fácil de visualizar e implementar.  
 
 ### Passo 2 - Escolher as Meta-heurísticas  
-Das opções disponíveis, as mais fáceis e bem documentadas são:
+Das opções disponíveis, as escolhidas são:
 
 - **Particle Swarm Optimization (PSO)**  
   - Baseada no comportamento coletivo de enxames.  
@@ -35,14 +35,14 @@ Das opções disponíveis, as mais fáceis e bem documentadas são:
 ## Parte 2: Problema Combinatório
 
 ### Passo 4 - Escolher o Problema  
-O problema mais simples e conhecido é:
+O problema escolhido é:
 
 - **Problema da Mochila (Knapsack Problem)**  
   - Fácil de entender e implementar.  
   - Possui soluções heurísticas bem documentadas.  
 
 ### Passo 5 - Escolher a Meta-heurística  
-A mais fácil de implementar e eficaz para esse tipo de problema é:
+O problema escolhido é:
 
 - **Algoritmo Genético (GA)**  
   - Inspirado na seleção natural.  
