@@ -8,6 +8,8 @@ Das funções disponíveis na seção **"Many Local Minima"**, as escolhidas for
 - **Rastrigin Function**  
   - Função comum de benchmark com múltiplos mínimos locais.  
   - Simples de definir e tem uma forma bem estudada.  
+anotação:
+a variavel "d" precisa ser 2
 
 - **Schaffer Function N. 2**  
   - Expressão matemática simples.  
