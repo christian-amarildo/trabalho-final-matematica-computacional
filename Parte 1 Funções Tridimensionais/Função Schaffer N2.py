@@ -6,9 +6,7 @@ from matplotlib import cm
 import os
 from PIL import Image
 
-# ----------------------------
-# Função de Schaffer (entrada: lista [x, y])
-# ----------------------------
+
 def funcao_schaffer_np(lista_x):
     if len(lista_x) != 2:
         raise ValueError("A entrada deve ter exatamente dois elementos [x, y].")
@@ -37,27 +35,22 @@ def plotar_particulas(particulas, funcao_objetivo, titulo, limites, nome_arquivo
     ax.set_zlim(np.min(Z), np.max(Z))
     ax.zaxis.set_major_locator(LinearLocator(10))
 
-    # Adiciona as partículas
     for p in particulas:
         z = funcao_objetivo(p)
         ax.scatter(p[0], p[1], z, color='black', s=30)
 
-    # Adiciona barra de cores
     fig.colorbar(surf, shrink=0.5, aspect=8)
 
-    # Salvar imagem com alta qualidade
     if nome_arquivo:
         plt.savefig(nome_arquivo, dpi=300, bbox_inches='tight')  # Aumenta a qualidade com dpi=300
 
-    # Mostrar ou fechar
     if mostrar:
         plt.show()
     else:
         plt.close(fig)
 
-# ----------------------------
 # Algoritmo PSO - Particle Swarm Optimization
-# ----------------------------
+
 def pso(funcao_custo, dimensao=2, num_particulas=100, num_iteracoes=100, w=0.5, c1=1, c2=2,
         limites=(-100, 100), plot_interval=1, salvar_gif=True, mostrar_prints=True):
 
